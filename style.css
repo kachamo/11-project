@@ -33,18 +33,13 @@ header {
 }
 .nav__menu{
     display: flex;
-    flex-direction: column;
     justify-content: center;
     font-size: 1.5rem;
-    position: absolute;
-    top: 30%;
-    left: 10%;
-    width: 120px;
-    padding: 20px;
+
 }
 .nav__menu li {
     list-style: none; 
-    visibility: hidden; 
+    margin: 0 20px;
 }
 .nav__bar a{
     text-decoration: none;
@@ -54,15 +49,10 @@ header {
     border-bottom: 2px solid var(--color-primary);
     border-radius: 10px;
 }
-.opened li{
-    visibility: visible;
-    padding: 5px 10px;
-    margin: 10px 0;
-}
+
 .burger{
-    display: flex;
-    flex-direction: column;
-        cursor: pointer;
+    display: none;
+    cursor: pointer;
 }
 
 .bar{
@@ -87,37 +77,6 @@ header {
 .logo{
     font-family: 'Permanent Marker', cursive;
     font-size: 2.5rem;
-}
-.search-bar {
-	display: flex;
-	align-items: center;
-	margin-left: 1rem;
-}
-
-.search-bar .textbox {
-    visibility: hidden;
-	padding: 0.5rem;
-    color: #fff;
-    outline: none;
-	border: none;
-    border-bottom: 1px solid #d8d8d8;
-    background-color: transparent;
-	border-radius: 0.25rem;
-	margin-right: 0.5rem;
-}
-
-.search-bar:hover .textbox{
-    visibility: visible;
-}
-.search-bar button {
-	padding: 0.5rem;
-	color: #fff;
-	border: none;
-    background-color: transparent;
-    font-size: 2.5rem;
-    font-weight: 700;
-	border-radius: 0.25rem;
-	cursor: pointer;
 }
 
 .main {
@@ -363,12 +322,26 @@ a{
         text-align: center;
         margin: 10px 0;
     }
+    .burger{
+        display: flex;
+        flex-direction: column;
+    }
+    .nav__menu{
+        display: none;
+    }
   }
   
 @media (min-width: 481px) and (max-width: 768px) {
   /* Styles for tablets */
   .logo{
     font-size: 3rem;
+}
+.burger{
+    display: flex;
+    flex-direction: column;
+}
+.nav__menu{
+    display: none;
 }
 }
 @media (min-width: 769px) {
