@@ -344,7 +344,8 @@ a{
         font-size: 7rem;
     }
     .carousel-caption p {
-        font-size: 2rem;
+        width: 40ch;
+        font-size: 1.5rem;
     }
     .shopping-list{
         max-width: 100%;
