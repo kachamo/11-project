@@ -343,6 +343,21 @@ a{
 .nav__menu{
     display: none;
 }
+.shopping-list{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shopping-list-item{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    text-align: center;
+    margin: 10px 0;
+}
 }
 @media (min-width: 769px) {
     /* Styles for desktops and laptops */
