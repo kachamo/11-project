@@ -381,12 +381,16 @@ footer .container{
         justify-content: center;
         width: 100px;
         text-align: center;
-        margin: 10px 5px;
+        margin: 5px;
     }
     .shopping-list-item-title{
         font-size: 0.8rem;
-        width: 25ch;
+        width: 27ch;
         padding: 0 10px;
+    }
+    .shopping-list-item-price{
+        font-size: 1.1rem;
+        font-weight: 700;
     }
     .burger{
         display: flex;
