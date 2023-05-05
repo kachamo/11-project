@@ -329,6 +329,12 @@ a{
     .nav__menu{
         display: none;
     }
+    .info p{
+    font-size: 1.3rem;
+    color: var(--color-primary);
+    width: 50ch;
+    line-height: 20px;
+}
   }
   
 @media (min-width: 481px) and (max-width: 768px) {
