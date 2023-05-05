@@ -1,246 +1,250 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>My Home Page</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header>
-      <nav class="nav__bar">
-        <a href="/" class="logo">Skaters</a>
-        <ul class="nav__menu">
-          <li><a href="/">HOME</a></li>
-          <li><a href="#shop">SHOP</a></li>
-          <li><a href="#contact">CONTACT</a></li>
-        </ul>
-        <div class="burger" onclick="toggleMenu()">
-          <span class="bar bar-1"></span>
-          <span class="bar bar-2"></span>
-          <span class="bar bar-3"></span>
-        </div>
-      </nav>
-    </header>
-    <main>
-      <section class="hero">
-        <div class="carousel">
-          <div class="carousel-caption">
-            <h1>Skyline Cruiser</h1>
-            <p>
-              A sleek, minimalist skateboard for cruising and exploring the city
-              skyline with smooth rides and easy maneuverability.
-            </p>
-            <button class="btn">
-              <a href="#shop">Explore Now</a>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <title>skaters</title>
+      <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+      <header>
+        <nav class="nav__bar">
+          <a href="/" class="logo">Skaters</a>
+          <ul class="nav__menu">
+            <li><a href="/">HOME</a></li>
+            <li><a href="#shop">SHOP</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+          </ul>
+          <div class="burger" onclick="toggleMenu()">
+            <span class="bar bar-1"></span>
+            <span class="bar bar-2"></span>
+            <span class="bar bar-3"></span>
+          </div>
+        </nav>
+      </header>
+      <main>
+        <section class="hero">
+          <div class="carousel">
+            <div class="carousel-caption">
+              <h1>Skyline Cruiser</h1>
+              <p>
+                A sleek, minimalist skateboard for cruising and exploring the city
+                skyline with smooth rides and easy maneuverability.
+              </p>
+              <button class="btn">
+                <a href="#shop">Explore Now</a>
+              </button>
+            </div>
+            <div class="carousel-wrapper">
+              <div class="carousel-slide">
+                <img src="images/image01.jpg" alt="Image 1" />
+              </div>
+              <div class="carousel-slide">
+                <img src="images/image02.jpg" alt="Image 2" />
+              </div>
+              <div class="carousel-slide">
+                <img src="images/image03.jpg" alt="Image 3" />
+              </div>
+            </div>
+            <button class="carousel-prev">
+              <span class="icons"
+                ><ion-icon name="chevron-back-outline"></ion-icon
+              ></span>
+            </button>
+            <button class="carousel-next">
+              <span class="icons"
+                ><ion-icon name="chevron-forward-outline"></ion-icon
+              ></span>
             </button>
           </div>
-          <div class="carousel-wrapper">
-            <div class="carousel-slide">
-              <img src="images/image01.jpg" alt="Image 1" />
-            </div>
-            <div class="carousel-slide">
-              <img src="images/image02.jpg" alt="Image 2" />
-            </div>
-            <div class="carousel-slide">
-              <img src="images/image03.jpg" alt="Image 3" />
-            </div>
+        </section>
+        <div class="banner-fadeBottom"></div>
+        <div id="info" class="info">
+          <h2>Take a Journey, bend space</h2>
+          <p>
+            Discover the ultimate skateboarding experience with [Your Website
+            Name]. Shop high-quality boards & accessories, get expert tips, and
+            join our community of passionate skateboarders today!
+          </p>
+        </div>
+        <div class="shopping-container">
+          <div class="shopping-list">
+              <div class="shopping-list-item">
+                  <div class="shopping-list-item-image">
+                      <img src="images/item01.jpg" alt="Image 1" />
+                  </div>
+                  <div class="shopping-list-item-title">
+                      <h3>10.45x31.25 Skyline Cruiser Series 14 Deck - Limit 1</h3>
+                  </div>
+                  <div class="shopping-list-item-price">
+                      <span class="price">$55.21</span>
+                      <span class="addToCart"><ion-icon name="cart-outline"></ion-icon></span>
+                  </div>
+              </div>
+              <div class="shopping-list-item">
+                  <div class="shopping-list-item-image">
+                      <img src="images/item02.jpg" alt="Image 1" />
+                  </div>
+                  <div class="shopping-list-item-title">
+                      <h3>10.45x31.25 Skyline Cruiser Series 14 Deck - Limit 1</h3>
+                      <p></p>
+                  </div>
+                  <div class="shopping-list-item-price">
+                      <span class="price">$55.21</span>
+                      <span class="addToCart"><ion-icon name="cart-outline"></ion-icon></span>
+                  </div>
+              </div>
+              <div class="shopping-list-item">
+                  <div class="shopping-list-item-image">
+                      <img src="images/item03.jpg" alt="Image 1" />
+                  </div>
+                  <div class="shopping-list-item-title">
+                      <h3>10.45x31.25 Skyline Cruiser Series 14 Deck - Limit 1</h3>
+                      <p></p>
+                  </div>
+                  <div class="shopping-list-item-price">
+                      <span class="price">$55.21</span>
+                      <span class="addToCart"><ion-icon name="cart-outline"></ion-icon></span>
+                  </div>
+              </div>
+              <div class="shopping-list-item">
+                  <div class="shopping-list-item-image">
+                      <img src="images/item04.jpg" alt="Image 1" />
+                  </div>
+                  <div class="shopping-list-item-title">
+                      <h3>10.45x31.25 Skyline Cruiser Series 14 Deck - Limit 1</h3>
+                      <p></p>
+                  </div>
+                  <div class="shopping-list-item-price">
+                      <span class="price">$55.21</span>
+                      <span class="addToCart"><ion-icon name="cart-outline"></ion-icon></span>
+                  </div>
+              </div>
+              <div class="shopping-list-item">
+                  <div class="shopping-list-item-image">
+                      <img src="images/item05.jpg" alt="Image 1" />
+                  </div>
+                  <div class="shopping-list-item-title">
+                      <h3>10.45x31.25 Skyline Cruiser Series 14 Deck - Limit 1</h3>
+                      <p></p>
+                  </div>
+                  <div class="shopping-list-item-price">
+                      <span class="price">$55.21</span>
+                      <span class="addToCart"><ion-icon name="cart-outline"></ion-icon></span>
+                  </div>
+              </div>
+              <div class="shopping-list-item">
+                  <div class="shopping-list-item-image">
+                      <img src="images/item06.jpg" alt="Image 1" />
+                  </div>
+                  <div class="shopping-list-item-title">
+                      <h3>10.45x31.25 Skyline Cruiser Series 14 Deck - Limit 1</h3>
+                      <p></p>
+                  </div>
+                  <div class="shopping-list-item-price">
+                      <span class="price">$55.21</span>
+                      <span class="addToCart"><ion-icon name="cart-outline"></ion-icon></span>
+                  </div>
+              </div>
+              <div class="shopping-list-item">
+                  <div class="shopping-list-item-image">
+                      <img src="images/item07.jpg" alt="Image 1" />
+                  </div>
+                  <div class="shopping-list-item-title">
+                      <h3>10.45x31.25 Skyline Cruiser Series 14 Deck - Limit 1</h3>
+                      <p></p>
+                  </div>
+                  <div class="shopping-list-item-price">
+                      <span class="price">$55.21</span>
+                      <span class="addToCart"><ion-icon name="cart-outline"></ion-icon></span>
+                  </div>
+              </div>
+              <div class="shopping-list-item">
+                  <div class="shopping-list-item-image">
+                      <img src="images/item08.jpg" alt="Image 1" />
+                  </div>
+                  <div class="shopping-list-item-title">
+                      <h3>10.45x31.25 Skyline Cruiser Series 14 Deck - Limit 1</h3>
+                      <p></p>
+                  </div>
+                  <div class="shopping-list-item-price">
+                      <span class="price">$55.21</span>
+                      <span class="addToCart"><ion-icon name="cart-outline"></ion-icon></span>
+                  </div>
+              </div>
+              <div class="shopping-list-item">
+                  <div class="shopping-list-item-image">
+                      <img src="images/item09.jpg" alt="Image 1" />
+                  </div>
+                  <div class="shopping-list-item-title">
+                      <h3>10.45x31.25 Skyline Cruiser Series 14 Deck - Limit 1</h3>
+                      <p></p>
+                  </div>
+                  <div class="shopping-list-item-price">
+                      <span class="price">$55.21</span>
+                      <span class="addToCart"><ion-icon name="cart-outline"></ion-icon></span>
+                  </div>
+              </div>
+              <div class="shopping-list-item">
+                  <div class="shopping-list-item-image">
+                      <img src="images/item10.jpg" alt="Image 1" />
+                  </div>
+                  <div class="shopping-list-item-title">
+                      <h3>10.45x31.25 Skyline Cruiser Series 14 Deck - Limit 1</h3>
+                      <p></p>
+                  </div>
+                  <div class="shopping-list-item-price">
+                      <span class="price">$55.21</span>
+                      <span class="addToCart"><ion-icon name="cart-outline"></ion-icon></span>
+                  </div>
+              </div>
+              <div class="shopping-list-item">
+                  <div class="shopping-list-item-image">
+                      <img src="images/item11.jpg" alt="Image 1" />
+                  </div>
+                  <div class="shopping-list-item-title">
+                      <h3>10.45x31.25 Skyline Cruiser Series 14 Deck - Limit 1</h3>
+                      <p></p>
+                  </div>
+                  <div class="shopping-list-item-price">
+                      <span class="price">$55.21</span>
+                      <span class="addToCart"><ion-icon name="cart-outline"></ion-icon></span>
+                  </div>
+              </div>
+              <div class="shopping-list-item">
+                  <div class="shopping-list-item-image">
+                      <img src="images/item12.jpg" alt="Image 1" />
+                  </div>
+                  <div class="shopping-list-item-title">
+                      <h3>10.45x31.25 Skyline Cruiser Series 14 Deck - Limit 1</h3>
+                      <p></p>
+                  </div>
+                  <div class="shopping-list-item-price">
+                      <span class="price">$55.21</span>
+                      <span class="addToCart"><ion-icon name="cart-outline"></ion-icon></span>
+                  </div>
+              </div>
           </div>
-          <button class="carousel-prev">
-            <span class="icons"
-              ><ion-icon name="chevron-back-outline"></ion-icon
-            ></span>
-          </button>
-          <button class="carousel-next">
-            <span class="icons"
-              ><ion-icon name="chevron-forward-outline"></ion-icon
-            ></span>
-          </button>
         </div>
-      </section>
-      <div class="banner-fadeBottom"></div>
-      <div id="info" class="info">
-        <h2>Take a Journey, bend space</h2>
-        <p>
-          Discover the ultimate skateboarding experience with [Your Website
-          Name]. Shop high-quality boards & accessories, get expert tips, and
-          join our community of passionate skateboarders today!
-        </p>
-      </div>
-      <div class="shopping-container">
-        <div class="shopping-list">
-            <div class="shopping-list-item">
-                <div class="shopping-list-item-image">
-                    <img src="images/item01.jpg" alt="Image 1" />
-                </div>
-                <div class="shopping-list-item-title">
-                    <h3>10.45x31.25 Skyline Cruiser Series 14 Deck - Limit 1</h3>
-                </div>
-                <div class="shopping-list-item-price">
-                    <span class="price">$55.21</span>
-                    <span class="addToCart"><ion-icon name="cart-outline"></ion-icon></span>
-                </div>
-            </div>
-            <div class="shopping-list-item">
-                <div class="shopping-list-item-image">
-                    <img src="images/item02.jpg" alt="Image 1" />
-                </div>
-                <div class="shopping-list-item-title">
-                    <h3>10.45x31.25 Skyline Cruiser Series 14 Deck - Limit 1</h3>
-                    <p></p>
-                </div>
-                <div class="shopping-list-item-price">
-                    <span class="price">$55.21</span>
-                    <span class="addToCart"><ion-icon name="cart-outline"></ion-icon></span>
-                </div>
-            </div>
-            <div class="shopping-list-item">
-                <div class="shopping-list-item-image">
-                    <img src="images/item03.jpg" alt="Image 1" />
-                </div>
-                <div class="shopping-list-item-title">
-                    <h3>10.45x31.25 Skyline Cruiser Series 14 Deck - Limit 1</h3>
-                    <p></p>
-                </div>
-                <div class="shopping-list-item-price">
-                    <span class="price">$55.21</span>
-                    <span class="addToCart"><ion-icon name="cart-outline"></ion-icon></span>
-                </div>
-            </div>
-            <div class="shopping-list-item">
-                <div class="shopping-list-item-image">
-                    <img src="images/item04.jpg" alt="Image 1" />
-                </div>
-                <div class="shopping-list-item-title">
-                    <h3>10.45x31.25 Skyline Cruiser Series 14 Deck - Limit 1</h3>
-                    <p></p>
-                </div>
-                <div class="shopping-list-item-price">
-                    <span class="price">$55.21</span>
-                    <span class="addToCart"><ion-icon name="cart-outline"></ion-icon></span>
-                </div>
-            </div>
-            <div class="shopping-list-item">
-                <div class="shopping-list-item-image">
-                    <img src="images/item05.jpg" alt="Image 1" />
-                </div>
-                <div class="shopping-list-item-title">
-                    <h3>10.45x31.25 Skyline Cruiser Series 14 Deck - Limit 1</h3>
-                    <p></p>
-                </div>
-                <div class="shopping-list-item-price">
-                    <span class="price">$55.21</span>
-                    <span class="addToCart"><ion-icon name="cart-outline"></ion-icon></span>
-                </div>
-            </div>
-            <div class="shopping-list-item">
-                <div class="shopping-list-item-image">
-                    <img src="images/item06.jpg" alt="Image 1" />
-                </div>
-                <div class="shopping-list-item-title">
-                    <h3>10.45x31.25 Skyline Cruiser Series 14 Deck - Limit 1</h3>
-                    <p></p>
-                </div>
-                <div class="shopping-list-item-price">
-                    <span class="price">$55.21</span>
-                    <span class="addToCart"><ion-icon name="cart-outline"></ion-icon></span>
-                </div>
-            </div>
-            <div class="shopping-list-item">
-                <div class="shopping-list-item-image">
-                    <img src="images/item07.jpg" alt="Image 1" />
-                </div>
-                <div class="shopping-list-item-title">
-                    <h3>10.45x31.25 Skyline Cruiser Series 14 Deck - Limit 1</h3>
-                    <p></p>
-                </div>
-                <div class="shopping-list-item-price">
-                    <span class="price">$55.21</span>
-                    <span class="addToCart"><ion-icon name="cart-outline"></ion-icon></span>
-                </div>
-            </div>
-            <div class="shopping-list-item">
-                <div class="shopping-list-item-image">
-                    <img src="images/item08.jpg" alt="Image 1" />
-                </div>
-                <div class="shopping-list-item-title">
-                    <h3>10.45x31.25 Skyline Cruiser Series 14 Deck - Limit 1</h3>
-                    <p></p>
-                </div>
-                <div class="shopping-list-item-price">
-                    <span class="price">$55.21</span>
-                    <span class="addToCart"><ion-icon name="cart-outline"></ion-icon></span>
-                </div>
-            </div>
-            <div class="shopping-list-item">
-                <div class="shopping-list-item-image">
-                    <img src="images/item09.jpg" alt="Image 1" />
-                </div>
-                <div class="shopping-list-item-title">
-                    <h3>10.45x31.25 Skyline Cruiser Series 14 Deck - Limit 1</h3>
-                    <p></p>
-                </div>
-                <div class="shopping-list-item-price">
-                    <span class="price">$55.21</span>
-                    <span class="addToCart"><ion-icon name="cart-outline"></ion-icon></span>
-                </div>
-            </div>
-            <div class="shopping-list-item">
-                <div class="shopping-list-item-image">
-                    <img src="images/item10.jpg" alt="Image 1" />
-                </div>
-                <div class="shopping-list-item-title">
-                    <h3>10.45x31.25 Skyline Cruiser Series 14 Deck - Limit 1</h3>
-                    <p></p>
-                </div>
-                <div class="shopping-list-item-price">
-                    <span class="price">$55.21</span>
-                    <span class="addToCart"><ion-icon name="cart-outline"></ion-icon></span>
-                </div>
-            </div>
-            <div class="shopping-list-item">
-                <div class="shopping-list-item-image">
-                    <img src="images/item11.jpg" alt="Image 1" />
-                </div>
-                <div class="shopping-list-item-title">
-                    <h3>10.45x31.25 Skyline Cruiser Series 14 Deck - Limit 1</h3>
-                    <p></p>
-                </div>
-                <div class="shopping-list-item-price">
-                    <span class="price">$55.21</span>
-                    <span class="addToCart"><ion-icon name="cart-outline"></ion-icon></span>
-                </div>
-            </div>
-            <div class="shopping-list-item">
-                <div class="shopping-list-item-image">
-                    <img src="images/item12.jpg" alt="Image 1" />
-                </div>
-                <div class="shopping-list-item-title">
-                    <h3>10.45x31.25 Skyline Cruiser Series 14 Deck - Limit 1</h3>
-                    <p></p>
-                </div>
-                <div class="shopping-list-item-price">
-                    <span class="price">$55.21</span>
-                    <span class="addToCart"><ion-icon name="cart-outline"></ion-icon></span>
-                </div>
-            </div>
+        
         </div>
-      </div>
-      
-      </div>
-    </main>
-    <script>
-      const navList = document.querySelector(".nav__menu");
-      function toggleMenu() {
-        navList.classList.toggle("opened");
-      }
-    </script>
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
-    ></script>
-    <script src="script.js"></script>
-  </body>
-</html>
+      </main>
+      <script>
+        const navList = document.querySelector(".nav__menu");
+        function toggleMenu() {
+          navList.classList.toggle("opened");
+        }
+      </script>
+      <script
+        type="module"
+        src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+      ></script>
+      <script
+        nomodule
+        src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+      ></script>
+      <script src="script.js"></script>
+    </body>
+  </html>
+  
