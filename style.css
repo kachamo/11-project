@@ -296,6 +296,9 @@ a{
 
 @media (max-width: 480px) {
     /* Styles for mobile devices */
+    body{
+        overflow-x: hidden;
+    }
     .logo{
         font-size: 3rem;
     }
@@ -339,6 +342,9 @@ a{
   
 @media (min-width: 481px) and (max-width: 768px) {
   /* Styles for tablets */
+  body{
+    overflow-x: hidden;
+}
   .logo{
     font-size: 3rem;
 }
@@ -367,6 +373,9 @@ a{
 }
 @media (min-width: 769px) {
     /* Styles for desktops and laptops */
+    body{
+        overflow-x: hidden;
+    }
     .logo{
         font-size: 2rem;
     }
