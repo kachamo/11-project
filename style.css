@@ -8,11 +8,12 @@ html{
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+    overflow-x: hidden;
 }
 body{
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     background-color: #ffffff;
-    overflow-x: hidden;
+
 }
 :root{
     --color-primary:#181818;
@@ -194,6 +195,7 @@ a{
 	border-radius: 0.25rem;
 	font-size: 2rem;
 	cursor: pointer;
+    z-index: 10000;
 }
 
 .carousel-prev {
@@ -293,6 +295,62 @@ a{
 }
 
 
+footer {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    padding: 20px;
+  }
+footer .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 10%;
+}
+  footer h3 {
+    font-size: 2rem;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  
+  footer p {
+    font-size: 1rem;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  
+  footer ul.social-icons {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  footer ul.social-icons li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  footer ul.social-icons li:last-child {
+    margin-right: 0;
+  }
+  
+  footer ul.social-icons li a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #ffffff;
+    color: #1a1a1a;
+  }
+  
+  footer ul.social-icons li a i {
+    font-size: 20px;
+  }
+  
+  
+  
+
 
 @media (max-width: 480px) {
     /* Styles for mobile devices */
@@ -312,7 +370,7 @@ a{
     .shopping-list{
         max-width: 100%;
         display: flex;
-        flex-direction: column;
+        flex-wrap: wrap;
         justify-content: center;
         align-items: center;
     }
@@ -321,9 +379,14 @@ a{
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        width: 400px;
+        width: 100px;
         text-align: center;
-        margin: 10px 0;
+        margin: 10px 5px;
+    }
+    .shopping-list-item-title{
+        font-size: 0.8rem;
+        width: 25ch;
+        padding: 0 10px;
     }
     .burger{
         display: flex;
@@ -338,6 +401,18 @@ a{
     width: 50ch;
     line-height: 20px;
 }
+
+footer .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10%;
+}
+footer h3 {
+    font-size: 1.3rem;
+    margin: 0.5rem;
+  }
   }
   
 @media (min-width: 481px) and (max-width: 768px) {
@@ -366,9 +441,14 @@ a{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    width: 300px;
+    width: 150px;
     text-align: center;
-    margin: 10px 0;
+    margin: 10px 5px;
+}
+.shopping-list-item-title{
+    font-size: 0.9rem;
+    width: 25ch;
+    padding: 0 10px;
 }
 }
 @media (min-width: 769px) {
