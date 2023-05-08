@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <title>skaters</title>
+      <link rel="stylesheet" href="products-style.css" />
+    <body>
+      <header>
+        <nav class="nav__bar">
+          <a href="/" class="logo">Skaters</a>
+          <ul class="nav__menu">
+            <li><a href="/">HOME</a></li>
+            <li><a href="#shop">SHOP</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+          </ul>
+          <div class="burger" onclick="toggleMenu()">
+            <span class="bar bar-1"></span>
+            <span class="bar bar-2"></span>
+            <span class="bar bar-3"></span>
+          </div>
+        </nav>
+      </header>
+      <main class="main-container">
+            <section class="main">
+              <div class="product-info">
+                  <h1>EXL skateboard</h1>
+                  <p>A sleek, minimalist skateboard for cruising and exploring the city skyline with smooth rides and easy maneuverability. </p>
+                  <div class="price-tag">
+                    <button class="btn">BUY NOW</button>
+                      <span class="price">$55.21</span>
+                  </div>
+                  <div class="product-description">
+                    <h2> Brands available</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi culpa incidunt asperiores et architecto nemo! Deleniti.</p>
+                  </div>
+              </div>
+              <div class="product-3d">
+                <img src="../images/details/product11.png" alt="">
+                <div class="bg-color" style="background: radial-gradient(circle, rgb(255, 191, 106) 0%, rgb(245, 131, 0) 100%);"></div>
+              </div>
+            </section>
+            <div class="product-moto">"When the ocean was flat, they would ride the streets of the coastal communities on homemade wooden boards with wheels attached to the bottom."
+          </div>
+            <div class="gallery">
+            <div class="gallery-img">
+              <img src="../images/gallery1.jpg" alt="">
+              <img src="../images/gallery2.jpg" alt="">
+              <img src="../images/gallery3.jpg" alt="">
+              <img src="../images/gallery4.jpg" alt="">
+              <img src="../images/gallery5.jpg" alt="">
+              <img src="../images/gallery6.jpg" alt="">
+              <img src="../images/gallery7.jpg" alt="">
+              <img src="../images/gallery8.jpg" alt="">
+            </div>
+          </div>
+      </main>
+      <footer>
+          ©2023
+      </footer>
+      
+      
+      <script>
+        const navList = document.querySelector(".nav__menu");
+        function toggleMenu() {
+          navList.classList.toggle("opened");
+        }
+      </script>
+      <script
+        type="module"
+        src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+      ></script>
+      <script
+        nomodule
+        src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+      ></script>
+      <script src="script.js"></script>
+    </body>
+  </html>
+  
